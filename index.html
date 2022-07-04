@@ -1,10 +1,90 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<!-- Load required Bootstrap and BootstrapVue CSS -->
+		<link
+			type="text/css"
+			rel="stylesheet"
+			href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css"
+		/>
+		<link
+			type="text/css"
+			rel="stylesheet"
+			href="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.css"
+		/>
+
+		<!-- Load polyfills to support older browsers -->
+		<script
+			src="https://polyfill.io/v3/polyfill.min.js?features=es2015%2CIntersectionObserver"
+			crossorigin="anonymous"
+		></script>
+
+		<!-- Load Vue followed by BootstrapVue -->
+		<script src="https://unpkg.com/vue@latest/dist/vue.min.js"></script>
+		<script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.js"></script>
+
+		<!-- Load the following for BootstrapVueIcons support -->
+		<script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue-icons.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="index-style.css" />
 		<title> Home </title>
 	</head>
 	<body>
+		<div id="app">
+			<b-jumbotron bg-variant="info" text-variant="white">
+				<template #header> Projects </template>
+				<template #lead>
+					By Mandy L. <br />
+					Various works created using HTML, CSS, and JS
+				</template>
+				<br />
+			</b-jumbotron>
+			<br />
+			<b-container class="gallery">
+				<b-row>
+					<b-col>
+						<div>
+							<b-card no-body bg-variant="transparent" style="max-width: 20rem">
+								<img src="/images/toDoVue.png" class="card-img" />
+								<a href="https://mandyl2.github.io/ToDoApps/vue.js/toDo_vue.html" target="blank">
+									<b-card-body title="ToDo v1">
+										<p> ToDo App created using Vue.js </p>
+									</b-card-body>
+								</a>
+							</b-card>
+						</div>
+					</b-col>
+					<b-col>
+						<div>
+							<b-card no-body bg-variant="transparent" style="max-width: 20rem">
+								<img src="/images/toDoBootstrapVue.png" class="card-img" />
+								<a
+									href="https://mandyl2.github.io/ToDoApps/bootstrap-vue/toDo_bootstrapVue.html"
+									target="blank"
+								>
+									<b-card-body title="ToDo v2">
+										<p> An updated version of ToDo v1 using Bootstrap-Vue </p>
+									</b-card-body>
+								</a>
+							</b-card>
+						</div>
+					</b-col>
+					<b-col>
+						<div>
+							<b-card no-body bg-variant="transparent" style="max-width: 20rem">
+								<img src="/images/GDESIndex.png" class="card-img" />
+								<a href="https://mandyl2.github.io/GDES-3091/" target="blank">
+									<b-card-body title="GDES-3901 Index">
+										<p> Final project for GDES-3901 containing everything learned in the course</p>
+									</b-card-body>
+								</a>
+							</b-card>
+						</div>
+					</b-col>
+				</b-row>
+			</b-container>
+		</div>
 		<script src="index.js"></script>
 	</body>
 </html>
