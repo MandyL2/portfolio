@@ -36,69 +36,189 @@
 				<template #header> Projects </template>
 				<template #lead>
 					By Mandy L. <br />
-					Various works created using HTML, CSS, and JS
+					Various web projects, games, and art
 				</template>
 				<br />
 			</b-jumbotron>
 			<br />
-			<b-container class="gallery">
-				<b-row>
-					<b-col>
-						<div>
-							<b-card no-body bg-variant="transparent" style="max-width: 20rem">
-								<img src="./images/SCTM.png" class="card-img" />
-								<a
-									href="https://webspace.ocad.ca/~mandy.luu/mySite/Assignments/a1/index.html"
-									target="blank"
-								>
-									<b-card-body title="SCTM-2005" style="height: 10rem">
-										<p> A collection of every exercise and assignment done throughout the course </p>
-									</b-card-body>
-								</a>
-							</b-card>
-						</div>
-					</b-col>
-					<b-col>
-						<div>
-							<b-card no-body bg-variant="transparent" style="max-width: 20rem">
-								<img src="./images/toDoVue.png" class="card-img" />
-								<a href="https://mandyl2.github.io/ToDoApps/vue.js/toDo_vue.html" target="blank">
-									<b-card-body title="ToDo v1" style="height: 10rem">
-										<p> ToDo App created using Vue.js </p>
-									</b-card-body>
-								</a>
-							</b-card>
-						</div>
-					</b-col>
-					<b-col>
-						<div>
-							<b-card no-body bg-variant="transparent" style="max-width: 20rem">
-								<img src="./images/toDoBootstrapVue.png" class="card-img" />
-								<a
-									href="https://mandyl2.github.io/ToDoApps/bootstrap-vue/toDo_bootstrapVue.html"
-									target="blank"
-								>
-									<b-card-body title="ToDo v2" style="height: 10rem">
-										<p> An updated version of ToDo v1 using Bootstrap-Vue </p>
-									</b-card-body>
-								</a>
-							</b-card>
-						</div>
-					</b-col>
-					<b-col>
-						<div>
-							<b-card no-body bg-variant="transparent" style="max-width: 20rem">
-								<img src="./images/GDESIndex.png" class="card-img" />
-								<a href="https://mandyl2.github.io/GDES-3091/" target="blank">
-									<b-card-body title="GDES-3901 Index" style="height: 10rem">
-										<p> Final project for GDES-3901 containing everything learned in the course</p>
-									</b-card-body>
-								</a>
-							</b-card>
-						</div>
-					</b-col>
-				</b-row>
-			</b-container>
+			<b-tabs content-class="mt-3" fill>
+				<b-tab title="Programming" active>
+					<b-container class="gallery">
+						<b-row>
+							<b-col>
+								<div>
+									<b-card no-body bg-variant="transparent" style="max-width: 20rem">
+										<img src="./images/booksOf2023.png" class="card-img" />
+										<a href="https://mandyl2.github.io/portfolio/booksOf2023.html" target="blank">
+											<b-card-body title="Books of 2023" style="height: 10rem">
+												<p> My Goodreads Books of 2023 with custom sections, including graphs made with chart.js </p>
+											</b-card-body>
+										</a>
+									</b-card>
+								</div>
+							</b-col>
+							<b-col>
+								<div>
+									<b-card no-body bg-variant="transparent" style="max-width: 20rem">
+										<img src="./images/toDoVue.png" class="card-img" />
+										<a href="https://mandyl2.github.io/ToDoApps/vue.js/toDo_vue.html" target="blank">
+											<b-card-body title="ToDo v1" style="height: 10rem">
+												<p> ToDo App created using Vue.js </p>
+											</b-card-body>
+										</a>
+									</b-card>
+								</div>
+							</b-col>
+							<b-col>
+								<div>
+									<b-card no-body bg-variant="transparent" style="max-width: 20rem">
+										<img src="./images/toDoBootstrapVue.png" class="card-img" />
+										<a
+											href="https://mandyl2.github.io/ToDoApps/bootstrap-vue/toDo_bootstrapVue.html"
+											target="blank"
+										>
+											<b-card-body title="ToDo v2" style="height: 10rem">
+												<p> An updated version of ToDo v1 using Bootstrap-Vue </p>
+											</b-card-body>
+										</a>
+									</b-card>
+								</div>
+							</b-col>
+							<b-col>
+								<div>
+									<b-card no-body bg-variant="transparent" style="max-width: 20rem">
+										<img src="./images/GDESIndex.png" class="card-img" />
+										<a href="https://mandyl2.github.io/GDES-3091/" target="blank">
+											<b-card-body title="GDES-3901 Index" style="height: 10rem">
+												<p> Final project for GDES-3901 containing everything learned in the course</p>
+											</b-card-body>
+										</a>
+									</b-card>
+								</div>
+							</b-col>
+						</b-row>
+						<br />
+						<b-row>
+							<b-col>
+								<div>
+									<b-card no-body bg-variant="transparent" style="max-width: 20rem">
+										<img src="./images/smileBreaker.png" class="card-img" />
+										<a href="https://editor.p5js.org/MandyL2/sketches/NhESI-MR4" target="blank">
+											<b-card-body title="Smile Breaker" style="height: 10rem">
+												<p> Smiley Face themed retro pong game made in p5.js </p>
+											</b-card-body>
+										</a>
+									</b-card>
+								</div>
+							</b-col>
+							
+							<b-col>
+								<div>
+									<b-card no-body bg-variant="transparent" style="max-width: 20rem">
+										<img src="./images/laytonLibrary.png" class="card-img" />
+										<a href="https://mandyl2.github.io/SCTM-S3001/" target="blank">
+											<b-card-body title="Professor Layton Music Library" style="height: 10rem">
+												<p> A small music library containing songs from the first three games </p>
+											</b-card-body>
+										</a>
+									</b-card>
+								</div>
+							</b-col>
+							<b-col>
+								<div>
+									<b-card no-body bg-variant="transparent" style="max-width: 20rem">
+										<img src="./images/gBabushka.png" class="card-img" />
+										<a href="https://mandyl2.itch.io/grandma-babushka-and-the-mystery-of-the-burnt-hut" target="blank">
+											<b-card-body title="Grandma Babushka and the Mystery of the Burnt Hut" style="height: 10rem">
+												<p> Visual novel game built in Ren'Py </p>
+											</b-card-body>
+										</a>
+									</b-card>
+								</div>
+							</b-col>
+							<b-col>
+								<div>
+									<b-card no-body bg-variant="transparent" style="max-width: 20rem">
+										<img src="./images/twoKids.jpg" class="card-img" />
+										<a href="https://stacked.itch.io/twokidsinatrenchcoat" target="blank">
+											<b-card-body title="Two Kids Stacked" style="height: 10rem">
+												<p> 3D game collaboration with UofT students</p>
+											</b-card-body>
+										</a>
+									</b-card>
+								</div>
+							</b-col>
+						</b-row>
+						<br />
+						<b-row>
+							<b-col>
+								<div>
+									<b-card no-body bg-variant="transparent" style="max-width: 20rem">
+										<img src="https://cdna.artstation.com/p/assets/images/images/048/630/238/large/mandy-l-toonrenderangled.jpg?1650527833" class="card-img" />
+										<a href="https://mandyl2.github.io/portfolio/booksOf2023.html" target="blank">
+											<b-card-body title="Mushroom World" style="height: 10rem">
+												<p> 3D mushroom modeling for a low poly game art course </p>
+											</b-card-body>
+										</a>
+									</b-card>
+								</div>
+							</b-col>
+							<b-col>
+								<div>
+									<b-card no-body bg-variant="transparent" style="max-width: 20rem">
+										<img src="./images/selfPortrait2020.png" class="card-img" />
+										<a href="https://editor.p5js.org/MandyL2/sketches/RaqnDSybF " target="blank">
+											<b-card-body title="Self Portrait 2020" style="height: 10rem">
+												<p> Self portrait made in p5.js </p>
+											</b-card-body>
+										</a>
+									</b-card>
+								</div>
+							</b-col>
+							<b-col>
+								<div>
+									<b-card no-body bg-variant="transparent" style="max-width: 20rem">
+										<img src="./images/personaPortrait.png" class="card-img" />
+										<a href="https://editor.p5js.org/MandyL2/sketches/eXF5ButSW " target="blank">
+											<b-card-body title="Persona Portrait" style="height: 10rem">
+												<p> Portrait of my persona made in p5.js </p>
+											</b-card-body>
+										</a>
+									</b-card>
+								</div>
+							</b-col>
+							<b-col>
+								<div>
+									<b-card no-body bg-variant="transparent" style="max-width: 20rem">
+										<img src="./images/SCTM.png" class="card-img" />
+										<a
+											href="https://webspace.ocad.ca/~mandy.luu/mySite/Assignments/a1/index.html"
+											target="blank"
+										>
+											<b-card-body title="SCTM-2005" style="height: 10rem">
+												<p> A collection of every exercise and assignment done throughout the course </p>
+											</b-card-body>
+										</a>
+									</b-card>
+								</div>
+							</b-col>
+						</b-row>
+						<br />
+					</b-container>
+				</b-tab>
+				<b-tab title="Art">
+					  <div>
+						<b-embed
+						  type="iframe"
+						  aspect="16by9"
+						  src="https://manyi-portfolio.carrd.co/"
+						  allowfullscreen
+						  style="height: 90vh; width: 98vw;"
+						></b-embed>
+					  </div>
+				</b-tab>
+			</b-tabs>
+			
 		</div>
 		<script src="index.js"></script>
 	</body>
