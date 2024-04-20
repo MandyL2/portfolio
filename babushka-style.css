@@ -37,7 +37,7 @@ hr {
 	padding-bottom: 0;
 	/* margin: auto; */
 	/* background-color: beige; */
-	background-image: url('/images/newspaperBG.jpeg');
+	background-image: url('./images/newspaperBG.jpeg');
     background-size: 70%;
 }
 
