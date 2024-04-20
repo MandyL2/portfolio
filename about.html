@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+		<!-- Load required Bootstrap and BootstrapVue CSS -->
+		<link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
+		<link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.css" />
+
+		<!-- Load polyfills to support older browsers -->
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=es2015%2CIntersectionObserver" crossorigin="anonymous"></script>
+
+		<!-- Load Vue followed by BootstrapVue -->
+		<script src="https://unpkg.com/vue@latest/dist/vue.min.js"></script>
+		<script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.js"></script>
+
+		<!-- Load the following for BootstrapVueIcons support -->
+		<script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue-icons.min.js"></script>
+		<!-- <link rel="stylesheet" type="text/css" href="indexMain-style.css" /> -->
+		<link rel="stylesheet" type="text/css" href="about-style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/qlh0fll.css">
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+		<title> About </title>
+	</head>
+	<body>
+		<div id="app">
+      <div id="body-grid">
+        <div id="nav">
+          <ul>
+            <a href="/index.html">
+              <button class="tablinks">
+                <li> <h5> Home </h5> </li>
+              </button>
+            </a>
+            <a href="/art.html">
+              <button class="tablinks">
+                <li> <h5> Art </h5> </li>
+              </button>
+            </a>
+            <a href="/games.html">
+              <button class="tablinks">
+                <li> <h5> Games </h5> </li>
+              </button>
+            </a>
+            <a href="/programming.html">
+              <button class="tablinks">
+                <li> <h5> Programming </h5> </li>
+              </button>
+            </a>
+            <a href="/about.html">
+              <button class="tablinks active">
+                <li> <h5> About </h5> </li>
+              </button>
+            </a>
+          </ul>
+        </div>
+            <div id="outerFolder">
+              <div id="aboutFolder">
+                <b-img center src="/images/profile.png" style="max-width: 500px;"></b-img>
+                <div id="bio">
+                  <p>
+                      Mandy Luu (she/her) is a Toronto-based artist and developer who has always been a fan of the arts and
+                      video games. Her passion for these two things led her to explore the intersection of art and technology
+                      through game and web design/development as a Digital Futures student. Her innate curiosity has led her
+                      to explore and experiment with a variety of things within 2D art and games. On the side she uses art as
+                      an outlet to be funny, chaotic, and pay tribute to the things she loves, such as anime, visual novels,
+                      and fashion, injecting creative spunk into all her projects. Mandy aspires to find herself on a dynamic
+                      team and tackle big projects to do focused work, whether it be the next best story game or full-stack
+                      web development.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div id="callout">
+              <h1> Let's make something great together. </h1>
+            </div>
+            <div id="contact">
+        
+              <div id="contactForm">
+                <b-form>
+                  <label class="sr-only" for="inline-form-input-name">Name</label>
+                  <b-form-input
+                    id="inline-form-input-name"
+                    class="mb-2 mr-sm-2 mb-sm-0"
+                    placeholder="Jane Doe"
+                  > </b-form-input>
+        
+                  <label class="sr-only" for="inline-form-input-name">Email</label>
+                  <b-form-input
+                    id="inline-form-input-name"
+                    class="mb-2 mr-sm-2 mb-sm-0"
+                    placeholder="example@gmail.com"
+                  > </b-form-input>
+                  <label class="sr-only" for="inline-form-input-name">Message</label>
+                  <b-form-input
+                    id="inline-form-input-name"
+                    class="mb-2 mr-sm-2 mb-sm-0"
+                    placeholder="Message..."
+                    style="height: 100px;"
+                  > </b-form-input>
+        
+                  <b-button variant="primary"> Send </b-button>
+                </b-form>
+              </div>
+              <div id="socialMedia">
+                <p class="h2"> <b-icon-twitter variant="warning"></b-icon-twitter>
+                    <a href="https://twitter.com/man_yisArt" target="_blank">
+                        man_yisart
+                    </a>
+                </p>
+                <p class="h2"> <b-icon-youtube variant="warning"></b-icon-youtube>
+                    <a href="https://youtube.com/@manyi5427?si=n6xYA2t91CPLNcyw" target="_blank">
+                        Man Yi
+                    </a>
+                </p>
+                <p class="h2"> <b-icon-github variant="warning"></b-icon-github>
+                    <a href="https://github.com/mandyL2" target="_blank">
+                        MandyL2
+                    </a>
+                </p>
+                <p class="h2"> <b-icon-controller variant="warning"></b-icon-controller>
+                    <a href="https://mandyl2.itch.io/" target="_blank">
+                        MandyL2
+                    </a>
+                </p>
+              </div>
+            </div>
+      </div>
+          <div class="footer" id="foot">
+            <div>
+              <h1> Mandy Luu </h1>
+              <p> Portfolio site. ©2024 Mandy L. - All Rights Reserved </p>
+              <p> 
+                <a href="/index.html"> Home </a>
+                <a href="/about.html"> About </a>
+                <a href="/art.html"> Art </a> 
+                <a href="/games.html"> Games </a> 
+                <a href="/programming.html"> Programming </a>
+              </p>
+            </div>
+            <div>
+              <p>
+                <br /> Get in touch! Email manyisart@gmail.com and follow 
+                <a href="https://twitter.com/man_yisArt">@man_yisart</a> 
+                on Twitter for regular updates.
+              </p>
+              <div>
+                <p class="h2"> 
+                  <a href="https://www.linkedin.com/in/luumandy/" target="_blank">
+                    <b-icon-linkedin variant="danger"></b-icon-controller>
+                  </a>
+                  <a href="https://github.com/mandyL2" target="_blank">
+                    <b-icon-github variant="danger"></b-icon-github> 
+                  </a>
+                  <a href="https://twitter.com/man_yisArt" target="_blank">
+                    <b-icon-twitter variant="danger"></b-icon-twitter> 
+                  </a>
+                  <a href="https://youtube.com/@manyi5427?si=n6xYA2t91CPLNcyw" target="_blank">
+                    <b-icon-youtube variant="danger"></b-icon-youtube> 
+                  </a>
+                  <a href="https://mandyl2.itch.io/" target="_blank">
+                    <b-icon-controller variant="danger"></b-icon-controller>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+		</div>
+		<script src="index.js"></script>
+        <!-- <script>
+            export default {
+    data() {
+      return {
+        form: {
+          email: '',
+          name: '',
+          food: null,
+          checked: []
+        },
+        foods: [{ text: 'Select One', value: null }, 'Carrots', 'Beans', 'Tomatoes', 'Corn'],
+        show: true
+      }
+    },
+    methods: {
+      onSubmit(event) {
+        event.preventDefault()
+        alert(JSON.stringify(this.form))
+      },
+      onReset(event) {
+        event.preventDefault()
+        // Reset our form values
+        this.form.email = ''
+        this.form.name = ''
+        this.form.food = null
+        this.form.checked = []
+        // Trick to reset/clear native browser form validation state
+        this.show = false
+        this.$nextTick(() => {
+          this.show = true
+        })
+      }
+    }
+  }
+        </script> -->
+	</body>
+</html>

@@ -1,0 +1,138 @@
+body {
+	background-color: maroon;
+	font-family: "ff-nexus-typewriter", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	cursor: url('images/magnifyingGlassVector3.png'), auto;
+}
+
+a {
+	color: maroon;
+	text-decoration: none;
+}
+
+h1 {
+	font-family: "logic-monospace", mono;
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+}
+
+.body-grid {
+	display: block;
+	/* width: 98vw; */
+	/* height: 100vh; */
+	/* grid-template-columns: 10% 30% 30% 30%;
+	grid-template-rows: 100%; */
+	padding: 10px;
+}
+
+#nav {
+	padding: 20px;
+	padding-bottom: 0;
+	/* margin: auto; */
+	/* background-color: beige; */
+	background-image: url('/images/newspaperBG.jpeg');
+    background-size: 70%;
+}
+
+#nav ul {
+	/* display: inline; */
+	list-style-type: none;
+	width: 80%;
+	/* margin: auto; */
+	padding: 0;
+	margin: 0;
+
+
+}
+
+#nav button {
+	border-radius: 5px 5px 0 0;
+	border-width: 0;
+	padding: 5px 15px 5px 15px;
+	background-color: #a9956a;
+	/* width: 15%; */
+}
+
+#nav button:hover {
+	background-color: rgb(164, 133, 100);
+}
+/* make active tab a diff colour */
+
+#nav button.active {
+	background-color: maroon;
+	color: antiquewhite;
+}
+
+#games {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	padding: 25px;
+	align-items: center;
+	background-image: url("images/linedPaper.jpeg");
+	background-size: 70%;
+	text-align: center;
+}
+
+.footer {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin: 10px;
+	background-image: url("images/paperTexture.jpeg");
+	background-size: 50%;
+	/* background-color: #C6A876; */
+	padding: 10px;
+}
+
+.footer h1 {
+	text-align: left;
+}
+
+.footer a {
+    color: #DC3545;
+}
+
+/* #nav {
+	background-color: beige;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+
+} */
+
+.polaroidFrame:nth-child(odd) {
+	float: left;
+}
+
+.polaroidFrame:nth-child(even) {
+	float: right;
+	margin-top: 325px;
+}
+
+#about {
+	background-color: aliceblue;
+	width: 100%;
+	height: 100%;
+}
+
+.polaroidFrame{
+	background-color: white;
+	width: 300px;
+	height: 325px;
+	margin-bottom: 325px;
+}
+
+.polaroidImg {
+	margin: auto;
+	height: 80%;
+	width: 90%;
+	padding-top: 5%;
+	
+	align-items: center;
+}
+
+.polaroidImg img {
+	margin: auto;
+}

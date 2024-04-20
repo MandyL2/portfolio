@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+		<!-- Load required Bootstrap and BootstrapVue CSS -->
+		<link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
+		<link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.css" />
+
+		<!-- Load polyfills to support older browsers -->
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=es2015%2CIntersectionObserver" crossorigin="anonymous"></script>
+
+		<!-- Load Vue followed by BootstrapVue -->
+		<script src="https://unpkg.com/vue@latest/dist/vue.min.js"></script>
+		<script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.js"></script>
+
+		<!-- Load the following for BootstrapVueIcons support -->
+		<script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue-icons.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="babushka-style.css" />
+		<link rel="stylesheet" href="https://use.typekit.net/qlh0fll.css">
+		<link rel="icon" type="image/x-icon" href="/images/logo.png">
+		<title> Grandma Babushka </title>
+	</head>
+	<body>
+		<div id="app">
+			<div class="body-grid">
+				<div id="nav">
+					<ul>
+						<a href="/index.html">
+							<button class="tablinks">
+								<li> <h5> Home </h5> </li>
+							</button>
+						</a>
+						<a href="/art.html">
+							<button class="tablinks">
+								<li> <h5> Art </h5> </li>
+							</button>
+						</a>
+						<a href="/games.html">
+							<button class="tablinks active">
+								<li> <h5> Games </h5> </li>
+							</button>
+						</a>
+						<a href="/programming.html">
+							<button class="tablinks">
+								<li> <h5> Programming </h5> </li>
+							</button>
+						</a>
+						<a href="/about.html">
+							<button class="tablinks">
+								<li> <h5> About </h5> </li>
+							</button>
+						</a>
+					</ul>
+				</div>
+				<div id="games" >
+					<b-img center src="images/babushkaThumbnail.png" style="max-width: 500px;"></b-img>
+					<div>
+						<h1> Grandma Babushka and the Mystery of the Burnt Hut </h1>
+						<p> 
+                            Industry: Visual Novel Games <br />
+                            Release Date: Dec 2023 <br />
+                            Platforms: <a href="https://mandyl2.itch.io/grandma-babushka-and-the-mystery-of-the-burnt-hut">Itch.io</a> (Windows/Mac) <br />
+                            Skills: Digital illustration, Ren'Py programming, game design, Git version control, project management <br />
+                            Role: Co-team lead, lead programmer, sprite artist <br />
+                            Team: Arteya Lutchman, Khanh Dao, Réal D'Angereaux
+						</p>
+					</div>
+                    <div>
+                        <h3> <u>Description:</u> </h3>
+                        <p>
+                            It all started with a letter... <br />
+                            Grandma Babushka's family has perished in a fire. No one know how it happened, but she suspects
+                            foul play. Join Grandma Babushka as she sets out to solve this spoopy mystery against all warnings! <br /><br />
+                            Note: this game is a prototype.
+                        </p>
+                        <h3> <u>Features:</u> </h3>
+                        <p>
+                            - High resolution pixel art <br />
+                            - Branching story <br />
+                            - Point and click hidden object puzzle <br />
+                            - Inventory system
+                        </p>
+                    </div>
+                    <b-img class='photos'center src="https://img.itch.zone/aW1hZ2UvMjQwMzkxOC8xNDIzNzY2Ni5wbmc=/794x1000/RwVBSN.png" fluid thumbnail rounded='0'></b-img> 
+                    <div id="process">
+                        <hr />
+                        <h1> <u>Process</u> </h1>
+                        <p>
+                            Created in a team of four for a 2D Game Design course, we all worked together from the initial conception 
+                            to the final prototype using Agile design methodology. My skills in both art and programming allowed me 
+                            to help whenever needed and gave me a better idea on how to prepare art assets to use within the Ren’Py engine. 
+                        </p>
+                    </div>
+                    <div id="grandma">
+                        <h3> <u>Grandma Babushka:</u> </h3>
+                        <p>
+                            Originally we had planned for a fullbody view of characters, but eventually decided to reduce it to headshots 
+                            for the sake of time and resources. Our protagonist was meant to be a sweet, slightly sassy, and classic 
+                            babushka who loves her tea in contrast to the dark fantasy aesthetic of her world. Both designs were different 
+                            takes on a headscarf and large coat to keep her warm in the forest she explores, with a kind smile in her eyes. 
+                            A headshot can only show so much, so I tried to show her age through her rounded face, creases, and slightly 
+                            stooped figure. I thought the small glasses also gave her a more grandmotherly vibe. 
+                        </p>
+                    </div>
+                    <b-container>
+                        <b-row>
+                            <b-col> 
+                                <b-img class='photos'center src="/images/grandma1.png" fluid thumbnail rounded='0'></b-img> 
+                                <p> Initial concept sketches for Grandma Babushka (yes, Grandma Grandma) </p>
+                            </b-col>
+                            <b-col> 
+                                <b-img class='photos'center src="/images/grandma2.png" fluid thumbnail rounded='0'></b-img> 
+                                <b-img class='photos'center src="/images/grandma3.png" fluid thumbnail rounded='0'></b-img>
+                            </b-col>
+                        </b-row>
+                    </b-container>
+                    <b-container>
+                        <b-row>
+                            <b-col> 
+                                <b-img class='photos'center src="/images/grandmaNeutral.png" fluid thumbnail rounded='0'></b-img> 
+                                <b-img class='photos'center src="/images/grandmaShocked.png" fluid thumbnail rounded='0'></b-img>
+                            </b-col>
+                            <b-col> 
+                                <b-img class='photos'center src="/images/grandmaHappy.png" fluid thumbnail rounded='0'></b-img>
+                                <b-img class='photos'center src="/images/grandmaSad.png" fluid thumbnail rounded='0'></b-img> 
+                            </b-col>
+                            <b-col>
+                                <b-img class='photos'center src="/images/grandmaQuestion.png" fluid thumbnail rounded='0'></b-img>
+                                <b-img class='photos'center src="/images/grandmaTea.png" fluid thumbnail rounded='0'></b-img>
+                            </b-col>
+                            <b-col>
+                                <b-img class='photos'center src="/images/grandmaWorried.png" fluid thumbnail rounded='0'></b-img>
+                            </b-col>
+                        </b-row>
+                    </b-container>
+                    <div>
+                        <p>
+                            After playing around with different colours, I decided on a mainly warm palette with a blue headscarf for 
+                            contrast. Many of the references I found sported colourful floral patterns. The high-resolution pixel art 
+                            style helps to soften Granny’s appearance. We decided on seven different expressions to accompany all dialogue, 
+                            although we weren’t able to get far enough to utilize the tea expression. This was my first time with pixel art 
+                            and I had to be very particular with pixel placements, because anything off would be glaringly obvious. 
+                        </p>
+                    </div>
+                    <div class="renpy">
+                        <h3> <u>Ren'Py Engine:</u> </h3>
+                        <p>
+                            This was my first time working with the Ren’Py game engine which I was able to catch on to quickly. Our hidden 
+                            object puzzle used Ren’Py’s Screen functions to create image maps that allowed the user to investigate our burnt 
+                            hut scene. While figuring out how to implement it I was able to optimize our art assets and smooth out potential 
+                            issues we had. As the lead programmer, I was in charge of laying down the foundations and overseeing changes, 
+                            making sure they were integrated well in our GitHub repository. I also helped tackle bugs that other members were 
+                            having trouble with. However, our inventory system was created entirely by our amazing member Arteya.
+                        </p>
+                    </div>
+                    <b-img class='photos'center src="/images/bgInsideburnthut.png" fluid thumbnail rounded='0'></b-img>
+                    <div>
+                        <b-img class='photos'center src="/images/drawer.png" fluid thumbnail rounded='0'></b-img>
+                        <b-img class='photos'center src="/images/drawerHover.png" fluid thumbnail rounded='0'></b-img>
+                    </div>
+                    <p class="renpy">
+                        I was able to seamlessly overlay these edited screenshots over the original background for a hover effect and 
+                        allow the player to click the drawer like a button thanks to the image map.
+                    </p>
+				</div>
+			</div>
+			<div class="footer" id="foot">
+				<div>
+					<h1> Mandy Luu </h1>
+					<p> Portfolio site. ©2024 Mandy L. - All Rights Reserved </p>
+					<p>
+						<a href="/index.html"> Home </a>
+						<a href="/about.html"> About </a>
+						<a href="/art.html"> Art </a>
+						<a href="/games.html"> Games </a>
+						<a href="/programming.html"> Programming </a>
+					</p>
+				</div>
+				<div>
+					<p>
+						<br /> Get in touch! Email manyisart@gmail.com and follow 
+						<a href="https://twitter.com/man_yisArt">@man_yisart</a> 
+						on Twitter for regular updates.
+					</p>
+					<div>
+						<p class="h2">
+							<a href="https://www.linkedin.com/in/luumandy/" target="_blank">
+								<b-icon-linkedin variant="danger"></b-icon-controller>
+							</a>
+							<a href="https://github.com/mandyL2" target="_blank">
+								<b-icon-github variant="danger"></b-icon-github>
+							</a>
+							<a href="https://twitter.com/man_yisArt" target="_blank">
+								<b-icon-twitter variant="danger"></b-icon-twitter>
+							</a>
+							<a href="https://youtube.com/@manyi5427?si=n6xYA2t91CPLNcyw" target="_blank">
+								<b-icon-youtube variant="danger"></b-icon-youtube>
+							</a>
+							<a href="https://mandyl2.itch.io/" target="_blank">
+								<b-icon-controller variant="danger"></b-icon-controller>
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>
