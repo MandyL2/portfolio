@@ -1,0 +1,62 @@
+body {
+    background-color: maroon;
+	font-family: "ff-nexus-typewriter", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	cursor: url('images/magnifyingGlassVector3.png'), auto;
+}
+
+h1 {
+	font-family: "logic-monospace", mono;
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: maroon;
+}
+
+/* NAVIGATION BAR */
+#nav ul {
+	list-style-type: none;
+	width: 80%;
+	padding: 0;
+	margin: 0;
+}
+
+#nav button {
+	border-radius: 5px 5px 0 0;
+	border-width: 0;
+	padding: 5px 15px 5px 15px;
+	background-color: #a9956a;
+}
+
+#nav button:hover {
+	background-color: rgb(164, 133, 100);
+}
+
+#nav button.active {
+	background-color: maroon;
+	color: antiquewhite;
+}
+
+/* FOOTER */
+.footer {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin: 10px;
+	background-image: url("images/paperTexture.jpeg");
+	background-size: 50%;
+	padding: 10px;
+}
+
+.footer h1 {
+	text-align: left;
+}
+
+.footer a {
+    color: #DC3545;
+}
