@@ -1,3 +1,12 @@
+function preload_image(im_url) {
+	let img = new Image();
+	img.src = im_url;
+}
+
+preload_image("images/newspaperBG.jpeg")
+preload_image("images/linedPaper.jpeg")
+
+
 var vm = new Vue({
 	el: "#app",
 	data: {},

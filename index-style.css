@@ -3,11 +3,12 @@
     grid-template-columns: 35% 65%;
 	background-image: url("images/newspaperBG.jpeg");
 	background-size: 80%;
+	height: 100vh;
 }
 
 #about {
-    height: 97vh;
-	padding: 10px;
+    /* height: 100vh; */
+	padding: 20px;
 }
 
 #nav {
@@ -18,8 +19,8 @@
 	background-color: #a9956a;
 	background-size: 80%;
 	height: 80%;
-	max-height: 410px;
-	max-width: 725px;
+	max-height: 70%;
+	max-width: 80%;
 	box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.581);
 	padding: 10px;
 }
@@ -66,3 +67,16 @@
 	margin: auto;
 	max-width: 100%;
 }
+
+/* @media only screen and (max-width: 700px) {
+	
+	.body-grid {
+		grid-template-columns: 1fr;
+		grid-template-rows: 35% 65%
+	}
+	#nav {
+		grid-column-start: 1;
+		grid-row-start: 2;
+		margin: auto;
+	}
+} */
